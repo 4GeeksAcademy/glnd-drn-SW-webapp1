@@ -28,7 +28,9 @@ export const ListComponent = (props) => {
                     />;
                 })}
             </div>
+
             <br />
+
             <h1 class="text-danger">Planets</h1>
             <div style={divStyle}>
                 {listaPlanetas.map(planetas => {
@@ -43,7 +45,9 @@ export const ListComponent = (props) => {
                     />;
                 })}
             </div>
+
             <br />
+
             <h1 class="text-danger">Starships</h1>
             <div style={divStyle}>
                 {listaNaves.map(naves => {
